@@ -1,16 +1,19 @@
 <script>
-  import ToDo from './components/ToDo.vue'
+import Blog from './components/Blog.vue'
+    export default {
+        components: {
+            Blog
+        },
 
-  export default {
-    components:{
-      ToDo
     }
-  }
 </script>
 
 <template>
-<ToDo/>
+    <main>
+      <Blog></Blog>
+    </main>
 </template>
 
 <style scoped>
+
 </style>
